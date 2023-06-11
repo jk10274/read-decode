@@ -1,8 +1,16 @@
 {
     "Texts": {
-        "Text": [
+        "Erster Blick aufs Handy": [
             {
-                "Text": "Hello World!"
+                "Category": "Hello World!",
+                "Time": 9.2,
+                "Amount": 1,
+                "Importance": 1,
+                "Context": "Hello World!",
+                "Font-Size": 12,
+                "Font-Color": "Black",
+                "Situation": "Hello World!",
+                "src": "Hello World!"
             }
         ],
         "Text2": [
