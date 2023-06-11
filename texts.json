@@ -2,26 +2,29 @@
     "Texts": {
         "Erster Blick aufs Handy": [
             {
-                "Category": "Hello World!",
-                "Time": 9.2,
+                "Category": "Bildschirm",
+                "Time": 9.1,
                 "Amount": 1,
-                "Importance": 1,
-                "Context": "Hello World!",
-                "Font-Size": 12,
-                "Font-Color": "Black",
-                "Situation": "Hello World!",
-                "src": "Hello World!"
+                "Importance": 6,
+                "Context": 1,
+                "Font-Size": 6,
+                "Font-Color": "White",
+                "Situation": "Zuhause",
+                "src": "https://cdn.jsdelivr.net/gh/jk10274/read-decode@master/images/Erster-Blick-aufs-Handy.PNG"
             }
         ],
-        "Text2": [
+        "Meta-Logo-auf-Whatsapp": [
             {
-                "Text": "Hello World!"
+                "Category": "Bildschirm",
+                "Time": 9.1,
+                "Amount": 1,
+                "Importance": 6,
+                "Context": 1,
+                "Font-Size": 6,
+                "Font-Color": "White",
+                "Situation": "Zuhause",
+                "src": "https://cdn.jsdelivr.net/gh/jk10274/read-decode/images/Meta-Logo-auf-Whatsapp.PNG"
             }
         ],
-        "Text3": [
-            {
-                "Text": "Hello World!"
-            }
-        ]
     }
 }
