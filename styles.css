@@ -94,4 +94,26 @@ body {
   width: 33%;
   border-bottom: 2px solid #ffffff;
 }
+
+.timeline {
+    position: relative;
+    height: 2px; /* adjust as needed */
+    background: #ffffff;
+    margin: 50px 20px; /* adjust as needed */
+  }
+  
+  .timeline .less-text,
+  .timeline .more-text {
+    position: absolute;
+    top: -20px; /* adjust as needed */
+    color: #ffffff;
+  }
+  
+  .timeline .less-text {
+    left: 0;
+  }
+  
+  .timeline .more-text {
+    right: 0;
+  }
   
