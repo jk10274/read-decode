@@ -3,8 +3,8 @@
         "Erster Blick aufs Handy": [
             {
                 "Category": "Bildschirm",
-                "Time": 9.1,
-                "Amount": 1,
+                "Time": 1,
+                "Amount": 10,
                 "Importance": 6,
                 "Context": 1,
                 "Font-Size": 6,
@@ -16,7 +16,7 @@
         "Meta Logo auf Whatsapp": [
             {
                 "Category": "Bildschirm",
-                "Time": 9.1,
+                "Time": 10,
                 "Amount": 1,
                 "Importance": 6,
                 "Context": 1,

@@ -21,16 +21,15 @@ fetch('texts.json')
         img.height = 100;
 
 
-        // Generate random top and left values (0 to 100)
-        let randomTop = Math.floor(Math.random() * 50);
-        let randomLeft = Math.floor(Math.random() * 50);
+        // Calculate top and left values based on the Time and Amount values
+        let top = (imageInfo.Time - 1) / 9 * (2500 - 250) + 250;
+        let left = (imageInfo.Amount - 1) / 9 * 80 + 5;
 
-        // Set the image's style to position it randomly on the page
+        // Set the image's style to position it based on the calculated top and left values
         img.style.position = 'absolute';
-        img.style.top = `${randomTop}vh`;
-        img.style.left = `${randomLeft}vw`;
+        img.style.top = `${top}px`;
+        img.style.left = `${left}vw`;
         img.style.zIndex = 1000;
-
         // Append the image to the imageContainer
         imageContainer.appendChild(img);
       });
