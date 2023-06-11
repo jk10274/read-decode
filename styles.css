@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    background-color: #111111;
+    color: #ffffff;
+    font-family: 'Cabinet Grotesk', sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-weight: bold;
+  }
+  
+ .author {
+    padding: 10px;
+    margin-right: 25px;
+  }
+  
+  nav {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+  }
+
+  .dropdown select {
+    background-color: #111111;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    padding: 10px;
+    margin-left: 25px;
+    text-align-last: center;
+    -webkit-appearance: none; /* removes default chrome and safari style */
+    -moz-appearance: none; /* removes default firefox style */
+    appearance: none; /* removes default select arrow */
+  }
+  
+  
