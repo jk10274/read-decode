@@ -1,69 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>READ_DECODE</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@1,800,500,100,700,400,300,200,900&display=swap" rel="stylesheet">
-  <script src="script.js"></script>
-</head>
-<body>
-  <header>
-    <div class="dropdown">
-        <select id="category">
-          <option value="alle" selected hidden>ALLE</option>
-          <option value="Bildschirme">BILDSCHIRME</option>
-          <option value="Druckmedien">DRUCKMEDIEN</option>
-          <option value="Alltagsgegenstände">ALLTAGSGEGENSTÄNDE</option>
-          <option value="Schriftverkehr">SCHRIFTVERKEHR</option>
-          <option value="Selbstverfasstes">SELBSTVERFASSTES</option>
-        </select>
-    </div>
-    <h1>READ_DECODE</h1>
-    <div class="author">
-      <p>JONA KAUFMANN</p>
-    </div>
-  </header>
-  <nav>
-    <ul>
-      <li style="margin-left: 30px;"><button style="font-weight: 700;">PARAMETER</button></li>
-      <li><button id="textmenge">TEXTMENGE</button></li>
-      <li><button id="relevanz">RELEVANZ</button></li>
-      <li><button id="context">KONTEXT</button></li>
-      <li><button id="schriftgroesse">SCHRIFTGRÖßE</button></li>
-      <li><button id="farbe">FARBE</button></li>
-      <li style="margin-right: 30px;"><button id="situation">LESESITUATION</button></li>
-    </ul>
-  </nav>
-  <!-- rest of the website -->
-  <div class="timeline">
-    <span class="less-text" id="timeline-text-left">Weniger Text</span>
-    <span class="center-text"id="timeline-text-center"></span>
-    <span class="more-text" id="timeline-text-right">Mehr Text</span>
-  </div>
-  
+	<head>
+		<meta charset="UTF-8" />
+		<title>READ_DECODE</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link
+			href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@1,800,500,100,700,400,300,200,900&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="dropdown">
+				<select id="category">
+					<option value="alle" selected hidden>ALLE</option>
+					<option value="Bildschirme">BILDSCHIRME</option>
+					<option value="Druckmedien">DRUCKMEDIEN</option>
+					<option value="Alltagsgegenstände">ALLTAGSGEGENSTÄNDE</option>
+					<option value="Schriftverkehr">SCHRIFTVERKEHR</option>
+					<option value="Selbstverfasstes">SELBSTVERFASSTES</option>
+				</select>
+			</div>
+			<h1>READ_DECODE</h1>
+			<div class="author">
+				<p>JONA KAUFMANN</p>
+			</div>
+		</header>
+		<nav>
+			<ul>
+				<li style="margin-left: 30px">
+					<button id="parameterTitle" style="font-weight: 700">
+						PARAMETER
+					</button>
+				</li>
+				<li><button id="textmenge">TEXTMENGE</button></li>
+				<li><button id="relevanz">RELEVANZ</button></li>
+				<li><button id="context">KONTEXT</button></li>
+				<li><button id="schriftgroesse">SCHRIFTGRÖßE</button></li>
+				<li><button id="farbe">FARBE</button></li>
+				<li style="margin-right: 30px">
+					<button id="situation">LESESITUATION</button>
+				</li>
+			</ul>
+		</nav>
+		<!-- rest of the website -->
+		<div class="timeline">
+			<span class="less-text" id="timeline-text-left">Weniger Text</span>
+			<span class="center-text" id="timeline-text-center"></span>
+			<span class="more-text" id="timeline-text-right">Mehr Text</span>
+		</div>
 
-  <!-- Your existing container and boxes code here -->
+		<!-- Your existing container and boxes code here -->
 
-    <div id="image-container"></div>
+		<div id="image-container"></div>
 
-  
-  <div class="container">
-    <div class="box">
-        <h1></h1>
-      <p>VORMITTAGS</p>
-    </div>
-    <div class="box">
-        <h1></h1>
-      <p>MITTAGS</p>
-    </div>
-    <div class="box">
-        <h1></h1>
-      <p>ABENDS</p>
-    </div>
-    <div class="box">
-        <h1></h1>
-    </div>
-  </div>  
-</body>
+		<div class="container">
+			<div class="box">
+				<h1></h1>
+				<p>VORMITTAGS</p>
+			</div>
+			<div class="box">
+				<h1></h1>
+				<p>MITTAGS</p>
+			</div>
+			<div class="box">
+				<h1></h1>
+				<p>ABENDS</p>
+			</div>
+			<div class="box">
+				<h1></h1>
+			</div>
+		</div>
+	</body>
 </html>

@@ -47,6 +47,10 @@ body {
     font-weight: 300;
     padding: 10px;
   }
+
+  #parameterTitle:hover {
+    color: #ffffff;
+  }
   
   nav ul li button:hover {
     color: #777777;
