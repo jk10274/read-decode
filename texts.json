@@ -8,9 +8,9 @@
                 "Importance": 6,
                 "Context": 1,
                 "Font-Size": 6,
-                "Font-Color": "White",
-                "Situation": "Zuhause",
-                "src": "https://cdn.jsdelivr.net/gh/jk10274/read-decode@master/images/Erster-Blick-aufs-Handy.PNG",
+                "Font-Color": 5,
+                "Situation": 1,
+                "src": "https://cdn.jsdelivr.net/gh/jk10274/read-decode@master/images/Erster-Blick-aufs-Handy.png",
                 "Size": 10
             }
         ],
@@ -22,11 +22,25 @@
                 "Importance": 6,
                 "Context": 1,
                 "Font-Size": 6,
-                "Font-Color": "White",
-                "Situation": "Zuhause",
-                "src": "https://cdn.jsdelivr.net/gh/jk10274/read-decode/images/Meta-Logo-auf-Whatsapp.PNG",
+                "Font-Color": 1,
+                "Situation": 1,
+                "src": "https://cdn.jsdelivr.net/gh/jk10274/read-decode/images/Meta-Logo-auf-Whatsapp.png",
                 "Size": 20
             }
-        ]
+        ],
+        "Logo auf Volvic Wasserflasche": [
+            {
+                "Category": "Bildschirme",
+                "Time": 3,
+                "Amount": 1,
+                "Importance": 6,
+                "Context": 1,
+                "Font-Size": 6,
+                "Font-Color": 1,
+                "Situation": 1,
+                "src": "https://cdn.jsdelivr.net/gh/jk10274/read-decode/images/Logo-auf-Volvic-Wasserflasche.png",
+                "Size": 20
+            }
+        ],
     }
 }
