@@ -2,7 +2,7 @@
     "Texts": {
         "Erster Blick aufs Handy": [
             {
-                "Category": "Bildschirm",
+                "Category": "Bildschirme",
                 "Time": 1,
                 "Amount": 10,
                 "Importance": 6,
@@ -16,7 +16,7 @@
         ],
         "Meta Logo auf Whatsapp": [
             {
-                "Category": "Bildschirm",
+                "Category": "Test",
                 "Time": 2,
                 "Amount": 1,
                 "Importance": 6,
