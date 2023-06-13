@@ -117,6 +117,14 @@ body {
     right: 0;
   }
 
+  .timeline .center-text {
+    position: absolute;
+    left: 50%;
+    top: -20px; /* adjust as needed */
+    transform: translateX(-50%);
+    color: #ffffff;
+}
+
   @keyframes fadeIn {
     from {
       opacity: 0;
