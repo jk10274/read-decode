@@ -283,7 +283,7 @@
 		"JavaScript Code": [
 			{
 				"Category": "Bildschirme",
-				"Time": 5.6,
+				"Time": 5.8,
 				"Amount": 7,
 				"Importance": 7,
 				"Context": 8,
@@ -381,7 +381,7 @@
 		"Kaugummmiverpackung": [
 			{
 				"Category": "Alltagsgegenstände",
-				"Time": 6.9,
+				"Time": 7.2,
 				"Amount": 2,
 				"Importance": 2,
 				"Context": 1,
@@ -465,7 +465,7 @@
         "Schulbuch": [
 			{
 				"Category": "Druckmedien",
-				"Time": 8.6,
+				"Time": 9,
 				"Amount": 9,
 				"Importance": 8,
 				"Context": 4.5,
