@@ -135,7 +135,7 @@ fetch("texts.json")
 			timelineTextRight.textContent = "Bunt";
 
 			// Place the images based on "Color"
-			placeImages(data, "Color");
+			placeImages(data, "Font-Color");
 		});
 
 		situationButton.addEventListener("click", () => {
