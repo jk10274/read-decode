@@ -4,11 +4,11 @@
             {
                 "Category": "Bildschirme",
                 "Time": 1,
-                "Amount": 10,
-                "Importance": 6,
-                "Context": 1,
+                "Amount": 1,
+                "Importance": 7,
+                "Context": 0,
                 "Font-Size": 6,
-                "Font-Color": 5,
+                "Font-Color": 4,
                 "Situation": 1,
                 "src": "https://cdn.jsdelivr.net/gh/jk10274/read-decode@master/images/Erster-Blick-aufs-Handy.png",
                 "Size": 10
@@ -17,13 +17,13 @@
         "Meta Logo auf Whatsapp": [
             {
                 "Category": "Bildschirme",
-                "Time": 2,
-                "Amount": 1,
-                "Importance": 6,
-                "Context": 1,
-                "Font-Size": 6,
-                "Font-Color": 1,
-                "Situation": 1,
+                "Time": 1.1,
+                "Amount": 0,
+                "Importance": 1,
+                "Context": 0,
+                "Font-Size": 2,
+                "Font-Color": 0,
+                "Situation": 2,
                 "src": "https://cdn.jsdelivr.net/gh/jk10274/read-decode/images/Meta-Logo-auf-Whatsapp.png",
                 "Size": 20
             }
@@ -31,16 +31,45 @@
         "Logo auf Volvic Wasserflasche": [
             {
                 "Category": "Alltagsgegenstände",
-                "Time": 3,
-                "Amount": 1,
-                "Importance": 6,
-                "Context": 1,
-                "Font-Size": 6,
-                "Font-Color": 1,
+                "Time": 1.2,
+                "Amount": 2,
+                "Importance": 2,
+                "Context": 0,
+                "Font-Size": 4,
+                "Font-Color": 9,
                 "Situation": 1,
                 "src": "https://cdn.jsdelivr.net/gh/jk10274/read-decode/images/Logo-auf-Volvic-Wasserflasche.png",
                 "Size": 20
             }
+        ],
+        "Guten-Morgen-Whatsapp-Nachricht": [
+            {
+                "Category": "Bildschirme",
+                "Time": 1.3,
+                "Amount": 1,
+                "Importance": 5,
+                "Context": 0,
+                "Font-Size": 3,
+                "Font-Color": 4.5,
+                "Situation": 1,
+                "src": "https://cdn.jsdelivr.net/gh/jk10274/read-decode/images/Guten-Morgen-Whatsapp-Nachricht.png",
+                "Size": 20
+            }
+        ],
+        "Fußball Plakat": [
+            {
+                "Category": "Druckmedien",
+                "Time": 1.4,
+                "Amount": 2,
+                "Importance": 1,
+                "Context": 9,
+                "Font-Size": 4,
+                "Font-Color": 2,
+                "Situation": 9,
+                "src": "https://cdn.jsdelivr.net/gh/jk10274/read-decode/images/Fußball-Plakat.png",
+                "Size": 20
+            }
         ]
+
     }
 }
